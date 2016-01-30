@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'gobble'
+
+config = Gobble::Config.new(ARGV)
+dictionary = File.readlines(config.file)
+extract = Gobble::Extraction.perform(dictionary,
+                                     insensitive: config.insensitive?)
+File.open('sequences', 'w') { |f| f.puts(extract[:sequences]) }
+File.open('words',     'w') { |f| f.puts(extract[:words]) }

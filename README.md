@@ -1,4 +1,4 @@
-# Gobble
+# gobble
 
 The **gobble** utility eats a dictionary and spits out the remains. It generates two output files, _sequences_ and _words_. The _sequences_ file contains every sequence of four letters (A-z) that appears in exactly one word of the dictionary, one sequence per line. The _words_ file contains the corresponding words that contain the sequences, in the same order, one word per line.
 
@@ -17,7 +17,7 @@ A Ruby solution to the [Words Test](https://gist.github.com/pedromartinez/778865
 
 The following option is available:
 
-`-i, --ignore-case` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Perform case insensitive matching. By default, gobble is case sensitive.
+`-i, --ignore-case`&nbsp; Perform case insensitive matching. By default, gobble is case sensitive.
 
 ## Development
 

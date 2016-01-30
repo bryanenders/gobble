@@ -1,0 +1,1 @@
+require 'gobble/version'

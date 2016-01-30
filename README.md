@@ -7,7 +7,7 @@ A Ruby solution to the [Words Test](https://gist.github.com/pedromartinez/778865
 ## Installation
 
     $ gem install specific_install
-    $ gem specific_install endersstocker/gobbler
+    $ gem specific_install endersstocker/gobble
 
 ## Usage
 
